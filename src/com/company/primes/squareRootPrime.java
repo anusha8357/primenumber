@@ -10,7 +10,7 @@ public class squareRootPrime {
 
         int count = 0;
 
-        for(int i = 3; i < Math.sqrt(num); i++){
+        for(int i = 3; i < Math.sqrt(num); i++){  //conside changing to step = 2
             count++;
             if(num % i == 0){
                 System.out.println("The program is being executed " + count + " times.");
