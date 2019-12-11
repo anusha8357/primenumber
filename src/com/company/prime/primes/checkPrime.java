@@ -3,8 +3,15 @@ package com.company.prime.primes;
 public class checkPrime {
     public static void main(String[] args) {
         checkIfPrime();
+        //boolean isItPrime = isPrime(...);
+        //System.out.println("Is the given number is prime: " + isItPrime);
     }
-
+    
+    /*
+    private static boolean checkIfPrime(int/long....){
+    .....
+    }
+    */
     private static void checkIfPrime(){
         int num = 1103;
         int count = 0;
