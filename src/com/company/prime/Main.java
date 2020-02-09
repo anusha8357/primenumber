@@ -88,5 +88,6 @@ public class Main {
         } else {
             System.out.println(num + " is not a prime number");
         }
+        System.out.println("Anusha");
     }
 }
